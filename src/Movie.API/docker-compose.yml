@@ -1,0 +1,23 @@
+version: '3.4'
+
+services:
+  movie.webhost:
+    image: ${DOCKER_REGISTRY-}moviewebhost
+    container_name: Movie.WebHost
+    build:
+      context: .
+      dockerfile: Movie.WebHost/Dockerfile
+    ports:
+      - "5001:443"
+  movie.api-db:
+    image: postgres
+    container_name: MovieApi.Db
+    restart: always
+    ports:
+      - "5432:5432"
+    volumes:
+      - C:/temp/moviedb:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: postgres_user
+      POSTGRES_PASSWORD: postgres_password
+      POSTGRES_DB: movie_db

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "aTWEFGl2ZVfg0aCDMWm88fv8oxkbEx+zw4xXGCzxXws=",
+  "Source": "Movie.WebHost",
+  "BasePath": "_content/Movie.WebHost",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
