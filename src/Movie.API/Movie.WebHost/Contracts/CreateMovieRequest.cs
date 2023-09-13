@@ -1,5 +1,6 @@
 ﻿namespace Movie.WebHost.Contracts;
 
-public class CreateActorResponse
+public class CreateMovieRequest
 {
+    
 }

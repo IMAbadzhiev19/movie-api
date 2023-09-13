@@ -41,3 +41,10 @@ C:\Users\User\source\repos\movie-api\src\Movie.API\Movie.WebHost\obj\Debug\net7.
 C:\Users\User\source\repos\movie-api\src\Movie.API\Movie.WebHost\obj\Debug\net7.0\Movie.WebHost.pdb
 C:\Users\User\source\repos\movie-api\src\Movie.API\Movie.WebHost\obj\Debug\net7.0\Movie.WebHost.genruntimeconfig.cache
 C:\Users\User\source\repos\movie-api\src\Movie.API\Movie.WebHost\obj\Debug\net7.0\ref\Movie.WebHost.dll
+C:\Users\User\source\repos\movie-api\src\Movie.API\Movie.WebHost\bin\Debug\net7.0\Carter.dll
+C:\Users\User\source\repos\movie-api\src\Movie.API\Movie.WebHost\bin\Debug\net7.0\FluentValidation.dll
+C:\Users\User\source\repos\movie-api\src\Movie.API\Movie.WebHost\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\User\source\repos\movie-api\src\Movie.API\Movie.WebHost\bin\Debug\net7.0\Mapster.dll
+C:\Users\User\source\repos\movie-api\src\Movie.API\Movie.WebHost\bin\Debug\net7.0\Mapster.Core.dll
+C:\Users\User\source\repos\movie-api\src\Movie.API\Movie.WebHost\bin\Debug\net7.0\MediatR.dll
+C:\Users\User\source\repos\movie-api\src\Movie.API\Movie.WebHost\bin\Debug\net7.0\MediatR.Contracts.dll

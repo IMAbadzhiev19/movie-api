@@ -16,3 +16,11 @@ C:\Users\User\source\repos\movie-api\src\Movie.API\obj\Debug\docker-compose.dcpr
 C:\Users\User\source\repos\movie-api\src\Movie.API\bin\Debug\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\Users\User\source\repos\movie-api\src\Movie.API\bin\Debug\Npgsql.dll
 C:\Users\User\source\repos\movie-api\src\Movie.API\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\User\source\repos\movie-api\src\Movie.API\bin\Debug\MediatR.dll
+C:\Users\User\source\repos\movie-api\src\Movie.API\bin\Debug\MediatR.Contracts.dll
+C:\Users\User\source\repos\movie-api\src\Movie.API\bin\Debug\FluentValidation.dll
+C:\Users\User\source\repos\movie-api\src\Movie.API\bin\Debug\Carter.dll
+C:\Users\User\source\repos\movie-api\src\Movie.API\bin\Debug\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\User\source\repos\movie-api\src\Movie.API\bin\Debug\Mapster.dll
+C:\Users\User\source\repos\movie-api\src\Movie.API\bin\Debug\Microsoft.Extensions.DependencyModel.dll
+C:\Users\User\source\repos\movie-api\src\Movie.API\bin\Debug\Mapster.Core.dll

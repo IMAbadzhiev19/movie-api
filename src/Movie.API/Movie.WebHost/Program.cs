@@ -1,5 +1,8 @@
+using Carter;
+using FluentValidation;
 using Microsoft.EntityFrameworkCore;
 using Movie.WebHost.Database;
+using Movie.WebHost.Extensions;
 using System.Threading.RateLimiting;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,6 +13,17 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<ApplicationDbContext>(o =>
 {
     o.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"));
+});
+
+builder.Services.AddCarter();
+
+var assembly = typeof(Program).Assembly;
+
+builder.Services.AddValidatorsFromAssembly(assembly);
+
+builder.Services.AddMediatR(config =>
+{
+    config.RegisterServicesFromAssembly(assembly);
 });
 
 builder.Services.AddRateLimiter(options =>
@@ -33,7 +47,11 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+
+    app.ApplyMigration();
 }
+
+app.MapCarter();
 
 app.UseHttpsRedirection();
 
